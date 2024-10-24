@@ -12,7 +12,7 @@ function load() {
 	ABCJS.renderAbc("paper", abc);
 	divABC.innerHTML = '';
 	divABC.insertAdjacentHTML("beforeend", abc);
-}
+};
 const buildButton = document.getElementById('build');
 const divABC = document.getElementById('abc');
 buildButton.addEventListener('click', load);
