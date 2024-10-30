@@ -96,7 +96,7 @@ div#paper, div#abc {
 	margin: 1em;
 	padding: 1em;
 	/*width: 75%;*/
-	height: 4em;
+	min-height: 4em;
 	border: solid #fff 0.1em;
 	background-color:#ffe;
 	font-size: 1em;
@@ -107,6 +107,6 @@ div#paper, div#abc {
 }
 
 fieldset p {
-	margin: 1em;
-	padding: 1em;
+	margin: 0 0 1em 1em;
+	padding: 0;
 }
